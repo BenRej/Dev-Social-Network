@@ -6,6 +6,10 @@ const app = express();
 //Connect Database
 connectDB();
 
+// Init Middleware
+// app.use(bodyparser.json());
+app.use(express.json({ extended: false }));
+
 //Define Routes
 app.use("/api/users", require("./routes/api/users"));
 app.use("/api/profile", require("./routes/api/profile"));
