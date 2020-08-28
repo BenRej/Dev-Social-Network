@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://Benrej:Benrej123@cluster0.zvueh.mongodb.net/DEV-SOCIAL-NETWORK?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://Benrej:Benrej123@cluster0.zvueh.mongodb.net/DEV-SOCIAL-NETWORK?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
