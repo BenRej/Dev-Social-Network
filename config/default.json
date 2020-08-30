@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://Benrej:Benrej123@cluster0.zvueh.mongodb.net/DEV-SOCIAL-NETWORK?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "112c76c5222f4922e37d",
+  "githubSecret": "68e81986e0735c9f3f8944fc09f3c28b48db497e"
 }
